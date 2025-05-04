@@ -593,4 +593,8 @@ footer .text span a:hover {
     font-size: 50px;
     color: #4070f4;
   }
+  .services .boxes .box {
+    margin: 18px 0;
+    width: 85%;
+  }
 }
