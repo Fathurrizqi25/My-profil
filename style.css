@@ -116,6 +116,19 @@ footer .media-icons a:hover {
   transform: translateY(0);
 }
 
+.reveal[data-direction="left"] {
+  transform: translateX(-30px);
+}
+
+.reveal[data-direction="right"] {
+  transform: translateX(30px);
+}
+
+.reveal[data-direction="left"].active,
+.reveal[data-direction="right"].active {
+  transform: translateX(0);
+}
+
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn {
