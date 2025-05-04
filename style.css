@@ -632,9 +632,9 @@ footer .text span a:hover {
   }
 
   .skills-details .boxes {
-    justify-content: space-between;
+    justify-content: center;
     text-wrap: balance;
-    width: 65%;
+    width: 85%;
   }
 
   .skills-details .box {
