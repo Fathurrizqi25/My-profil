@@ -593,8 +593,24 @@ footer .text span a:hover {
     font-size: 50px;
     color: #4070f4;
   }
+  
   .services .boxes .box {
     margin: 18px 0;
-    width: 85%;
+    width: 100%;
   }
+
+  .services .boxes .box .topic {
+    font-size: 14px;
+  }
+
+  .about .about-details .left {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .about .about-details .right p {
+    text-align: justify;
+    justify-content: center;
+    
 }
