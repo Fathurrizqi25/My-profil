@@ -610,7 +610,9 @@ footer .text span a:hover {
   }
 
   .about .about-details .right p {
-    text-align: justify;
-    justify-content: center;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
     
 }
