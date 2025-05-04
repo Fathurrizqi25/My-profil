@@ -626,14 +626,4 @@ footer .text span a:hover {
     margin-top: 0;
   }
 
-  .skills-details .boxes {
-    justify-content: justify;
-    text-wrap: wrap;
-  }
-
-  .skills-details .box {
-    width: calc(100% / 2 - 18px);
-    margin: 20px 0;
-  }
-    
 }
