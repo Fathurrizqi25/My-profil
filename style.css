@@ -268,6 +268,9 @@ section .topic {
 
 .about-details .right p {
   text-align: justify;
+  margin-top: 0;
+  margin-bottom: 1em;
+  line-height: 1.5;
   color: #0E2431;
 }
 
@@ -606,6 +609,11 @@ footer .text span a:hover {
   .about .about-details .left {
     display: flex;
     justify-content: center;
+    width: 80%;
+  }
+
+  .about .left img{
+    height: 80%;
     width: 80%;
   }
 
