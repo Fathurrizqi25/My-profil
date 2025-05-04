@@ -617,11 +617,6 @@ footer .text span a:hover {
   .about .about-details .left {
     display: flex;
     justify-content: center;
-    width: 80%;
-  }
-
-  .about .left img{
-    height: 95%;
     width: 90%;
   }
 
@@ -632,9 +627,9 @@ footer .text span a:hover {
   }
 
   .skills-details .boxes {
-    justify-content: center;
+    justify-content: justify;
     text-wrap: balance;
-    width: 85%;
+    width: 95%;
   }
 
   .skills-details .box {
