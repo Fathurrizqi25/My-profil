@@ -13,6 +13,27 @@ window.onscroll = function () {
   }
 };
 
+// Script untuk deteksi scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+    }
+    // Optional: Remove 'active' when out of view
+    // else {
+    //   entry.target.classList.remove('active');
+    // }
+  });
+}, {
+  threshold: 0.5 // Animasi akan terpicu ketika 50% element terlihat
+});
+
+// Terapkan ke semua element dengan class 'reveal'
+document.querySelectorAll('.reveal').forEach((element) => {
+  observer.observe(element);
+});
+
+
 // Side Navigation Menu
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
