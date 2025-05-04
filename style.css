@@ -628,13 +628,12 @@ footer .text span a:hover {
 
   .skills-details .boxes {
     justify-content: justify;
-    text-wrap: balance;
-    width: 95%;
+    text-wrap: wrap;
   }
 
   .skills-details .box {
-    width: calc(90% / 2 - 20px);
-    margin: 18px 0;
+    width: calc(100% / 2 - 18px);
+    margin: 20px 0;
   }
     
 }
