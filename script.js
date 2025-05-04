@@ -36,15 +36,6 @@ const hideNavMenu = () => {
   scrollBtn.style.pointerEvents = "auto";
 };
 
-document.getElementById('downloadCvBtn').addEventListener('click', function(){
-  const cvUrl = '/Others/CV-Fathurrizqi.pdf'; // Path to your CV file
-  const link = document.createElement('a');
-  link.href = cvUrl;
-  link.download = 'CV-Fathurrizqi.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
 
 // Close side navigation
 cancelBtn.onclick = hideNavMenu;
