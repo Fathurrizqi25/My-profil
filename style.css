@@ -91,14 +91,14 @@ nav.sticky .menu a:hover {
   color: #0E2431;
 }
 
-.navbar .media-icons a {
-  color: #4070f4;
-  font-size: 18px;
-  margin: 0 6px;
+footer .media-icons a {
+  color: #bfcff98d;
+  font-size: 24px;
+  margin: 1 10px;
 }
 
-nav.sticky .media-icons a {
-  color: #FFF;
+footer .media-icons a:hover {
+  color: #fff;
 }
 
 /* Side Navigation Menu Button CSS */
